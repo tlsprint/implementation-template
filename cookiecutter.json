@@ -1,0 +1,8 @@
+{
+    "implementation_name": "some-tls",
+    "implementation_slug": "{{ cookiecutter.implementation_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "upstream_url": "https://github.com/{{ cookiecutter.implementation_slug }}/{{ cookiecutter.implementation_slug }}.git",
+    "_copy_without_render": [
+        "*.j2"
+    ]
+}
